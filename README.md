@@ -13,11 +13,11 @@ but things may change as time progresses.
 # Environment Setup
 
 # Linux
-Use your package manager to install gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1
+Use your package manager to install <code>gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1</code>
 
 # Windows
-To build the project on windows install msys2. Once installed use pacman to install gcc-6.3.0.1 | gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1 | GNU make
+To build the project on windows install msys2. Once installed use pacman to install <br><code>gcc-6.3.0.1 | gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1 | GNU make</code>
 Make sure all packages you install are prepended with msys64/mingw64_x64_x86-{package_name}
 
 # OS X
-Simply install Homebrew then install gcc-6.3.0.1 | gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1 | GNU make
+Simply install Homebrew then install <code>gcc-6.3.0.1 | gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1 | GNU make</code>
