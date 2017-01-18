@@ -9,3 +9,15 @@ GTK3/Glade (gtkmm) and SDL will be the primary libraries to support application 
 Linux is the initial target. Following Linux will be OSX and Windows.
 Applying a similiar cross platform approach as gimp is the direction moving forward,
 but things may change as time progresses.
+
+# Environment Setup
+
+# Linux
+Use your package manager to install gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1
+
+# Windows
+To build the project on windows install msys2. Once installed use pacman to install gcc-6.3.0.1 | gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1 | GNU make
+Make sure all packages you install are prepended with msys64/mingw64_x64_x86-{package_name}
+
+# OS X
+Simply install Homebrew then install gcc-6.3.0.1 | gtkmm-3.0 | SDL-2.0.5 | SDL2_mixer-2.0.1 | GNU make
